@@ -38,11 +38,11 @@ body{
 .presentation{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;/* center, flex-start, flex-end */
     align-items: center;
     height: 50%;
     width: 100%;
-    background-color: yellowgreen;
+    background-color: lightgreen;
 }
 
 .title{
@@ -51,4 +51,21 @@ body{
 
 .sub-title{
     color: black;
+}
+
+.columns{
+    width:100%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.column{
+    width: 50%;
+    height: 100%;
+    background-color: lightpink;
+}
+
+.purple{
+    background-color: purple;
 }
